@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#ffff">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/unisbank" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="207dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dian" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:text="DIAN RAHMAWATI"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:text="19.01.53.0094"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
